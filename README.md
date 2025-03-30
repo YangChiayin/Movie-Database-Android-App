@@ -2,13 +2,12 @@
 
 A feature-rich Android application for searching, viewing, and managing favorite movies. This app integrates Firebase for authentication and Firestore for storing user-specific favorite movies. It also uses the OMDb API to fetch movie details.
 
-![Screenshot_20250329_205035](https://github.com/user-attachments/assets/6935d788-b689-40c5-b3d7-4d4f3b952bcc)
-![Screenshot_20250329_205328](https://github.com/user-attachments/assets/c0342bdc-4db4-412b-a628-fb30dd03e0f3)
-![Screenshot_20250329_205131](https://github.com/user-attachments/assets/0f53db50-bc0a-4a04-9a86-b60eb4979b44)
-![Screenshot_20250329_205247](https://github.com/user-attachments/assets/837fffc8-85fe-4074-9317-7eccbac5aa3c)
-![Screenshot_20250329_205131](https://github.com/user-attachments/assets/67699b28-35fd-4eed-b203-8bba00940d09)
-![Screenshot_20250329_205241](https://github.com/user-attachments/assets/20f1fb7e-ec3e-4af3-a5e9-89d8d3632aba)
-
+<img src="https://github.com/user-attachments/assets/6935d788-b689-40c5-b3d7-4d4f3b952bcc" width="250" />
+<img src="https://github.com/user-attachments/assets/c0342bdc-4db4-412b-a628-fb30dd03e0f3" width="250" />
+<img src="https://github.com/user-attachments/assets/0f53db50-bc0a-4a04-9a86-b60eb4979b44" width="250" />
+<img src="https://github.com/user-attachments/assets/837fffc8-85fe-4074-9317-7eccbac5aa3c" width="250" />
+<img src="https://github.com/user-attachments/assets/67699b28-35fd-4eed-b203-8bba00940d09" width="250" />
+<img src="https://github.com/user-attachments/assets/20f1fb7e-ec3e-4af3-a5e9-89d8d3632aba" width="250" />
 
 ## Features
 - **Search Movies**: Search for movies using the OMDb API.
