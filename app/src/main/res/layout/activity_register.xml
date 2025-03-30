@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/background_dark">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/registerTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp" />
+
+    <!-- Email Input -->
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_edittext_background"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#808080"
+        app:layout_constraintTop_toBottomOf="@id/registerTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Password Input -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edittext_background"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#808080"
+        app:layout_constraintTop_toBottomOf="@id/emailEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Confirm Password Input -->
+    <EditText
+        android:id="@+id/confirmPasswordEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edittext_background"
+        android:padding="12dp"
+        android:textColor="@android:color/white"
+        android:textColorHint="#808080"
+        app:layout_constraintTop_toBottomOf="@id/passwordEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/confirmPasswordEditText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <!-- Cancel Button -->
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/registerButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

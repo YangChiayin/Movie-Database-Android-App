@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <!-- Movie Poster -->
+    <ImageView
+        android:id="@+id/movie_poster"
+        android:layout_width="120dp"
+        android:layout_height="180dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/movie_poster"
+        android:background="#121212"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Movie Title -->
+        <TextView
+            android:id="@+id/movie_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Movie Title"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <!-- Movie Information -->
+        <TextView
+            android:id="@+id/movie_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2000 100 min Action, Adventure, Fantasy"
+            android:textColor="#CCCCCC" />
+
+        <!-- Movie Rating -->
+        <TextView
+            android:id="@+id/movie_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8.1"
+            android:textColor="#FFD700" />
+
+    </LinearLayout>
+</RelativeLayout>
