@@ -6,7 +6,7 @@ A feature-rich Android application for searching, viewing, and managing favorite
 <img src="https://github.com/user-attachments/assets/c0342bdc-4db4-412b-a628-fb30dd03e0f3" width="250" />
 <img src="https://github.com/user-attachments/assets/0f53db50-bc0a-4a04-9a86-b60eb4979b44" width="250" />
 <img src="https://github.com/user-attachments/assets/837fffc8-85fe-4074-9317-7eccbac5aa3c" width="250" />
-<img src="https://github.com/user-attachments/assets/67699b28-35fd-4eed-b203-8bba00940d09" width="250" />
+<img src="https://github.com/user-attachments/assets/90465365-1667-491a-ae72-4b0acbdbc46d" width="250" />
 <img src="https://github.com/user-attachments/assets/20f1fb7e-ec3e-4af3-a5e9-89d8d3632aba" width="250" />
 
 ## Features
